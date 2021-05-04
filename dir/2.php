@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ggyou
- * Date: 04.05.2021
- * Time: 14:36
- */
+
+class A {
+    public $property;
+}
+
+$a = new A();
+$a->property = 'a';
+
+
+$b = $a;
+$b->property = 'b';
+
+echo $a->property;
