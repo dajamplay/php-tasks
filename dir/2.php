@@ -1,5 +1,7 @@
 <?php
 
+//ссылка объект
+
 class A {
     public $property;
 }

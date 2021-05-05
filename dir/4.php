@@ -1,7 +1,29 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ggyou
- * Date: 05.05.2021
- * Time: 1:55
- */
+
+$arr = [
+    [
+        '01',
+        '02',
+    ],
+    [
+        '11',
+        '12'
+    ],
+    [
+        '21',
+        '22'
+    ]
+];
+
+
+
+foreach ($arr as $items) {
+    foreach ($items as $item) {
+        echo $item . "\t";
+    }
+    echo '<br />';
+}
+
+$number = 1;
+
+echo preg_match("/(\d)/", $number) ? 'Yes' : 'No';
