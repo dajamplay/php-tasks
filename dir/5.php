@@ -1,7 +1,7 @@
 <?php
 
-$cols = 10;
-$rows = 10;
+$cols = rand(2, 10);
+$rows = rand(2, 10);
 
 echo '<table style="border: darkblue 1px solid; border-radius: 5px;">';
 for ($i = 1; $i < $rows + 1; $i++) {
