@@ -3,6 +3,7 @@
 <a href="/dir/3.php">3</a><br />
 <a href="/dir/4.php">4</a><br />
 <a href="/dir/5.php">5</a><br />
+<a href="/dir/6.php">5</a><br />
 
 
 <?php
